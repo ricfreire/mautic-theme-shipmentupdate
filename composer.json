@@ -1,0 +1,13 @@
+{
+  "name": "mautic/shipmentupdate",
+  "description": "Shipment Update Email Theme by Ricardo Freire",
+  "type": "mautic-theme",
+  "keywords": ["mautic","theme"],
+  "extra": {
+    "install-directory-name": "shipmentupdate"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "mautic/core-lib": "^5.0"
+  }
+}

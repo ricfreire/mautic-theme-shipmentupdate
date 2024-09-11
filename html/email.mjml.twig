@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif"></mj-all>
+      <mj-text line-height="24px" color="#525252" font-weight="400" padding="0px" font-size="16px" />
+    </mj-attributes>
+    <mj-style>
+    p { margin: 0px 0px 0px 0px !important; }
+    .su-text-small a { color: unset; text-decoration: underline; }
+    .su-text-main a { color: #2B2B8B !important; text-decoration: none; }
+    .su-text-icon a { color: unset; text-decoration: none; }
+    .su-table table { text-align: left; color: #2B2B8B; font-size: 14px; width: 100%; border: 1px solid #dbdbec; }
+    .su-table table th { width: 33%; padding: 8px 12px; background-color: #eeeef6; font-weight: 400;}
+    .su-table table td { width: 67%; padding: 8px 12px; background-color: #f7f7fb; font-weight: 400;}
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F0EFEA">
+    <!-- Viewtext -->
+    <mj-section padding="30px 30px">
+      <mj-column>p
+        <mj-text css-class="su-text-small" color="#818180" font-size="14px" align="center"> {webview_text} </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Header -->
+    <mj-section padding="30px 30px 0px 30px" background-color="#2B2B8B" border-top="10px solid #25B37F">
+      <mj-column vertical-align="middle" padding-bottom="30px">
+        <mj-image href="https://crafting.email" align="left" height="30px" padding="0px" width="125px" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle" padding-bottom="30px">
+        <mj-text css-class="su-text-main" align="right" color="#fff"> Fast. Reliable. Everywhere. </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Hero -->
+    <mj-section padding="0px">
+      <mj-column padding="0px">
+        <mj-image fluid-on-mobile="true" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/hero.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Content -->
+    <mj-section background-color="#fff" padding="40px 30px">
+      <mj-column>
+        <mj-text css-class="su-text-main" align="left">
+          <p>Dear customer,</p>
+          <p>We are delighted to inform you that your order is now on its way!</p>
+        </mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-text color="#2B2B8B" font-weight="600" font-size="17px">Delivery Details</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text css-class="su-table">
+          <table>
+            <tr>
+              <th>Order Number</th>
+              <td>#02930</td>
+            </tr>
+            <tr>
+              <th>Shipping Address</th>
+              <td>
+                <p>John Doe</p>
+                <p>Rua da Liberdade, 45</p>
+                <p>1250-140 Lisbon, Portugal</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Estimated Delivery Date</th>
+              <td>14th September 2025</td>
+            </tr>
+            <tr>
+              <th>Tracking number</th>
+              <td>PT11938301</td>
+            </tr>
+          </table>
+        </mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-text css-class="su-text-main" align="left">
+          <p>Track your delivery <a href="#">here</a>. If you have any questions, feel free to reach out.</p>
+          <p>Thank you for choosing CraftingLogistics!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Contact Details -->
+    <mj-section background-color="#2B2B8B" padding="40px 30px 0px 30px">
+      <!-- 1 -->
+      <mj-column width="33.33%" padding-bottom="40px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="24px" height="24px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/icon1.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="su-text-icon" color="#fff" align="center" font-size="14px">ricardo@crafting.email</mj-text>
+      </mj-column>
+      <!-- 2 -->
+      <mj-column width="33.33%" padding-bottom="40px" padding="0px 0px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="24px" height="24px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/icon1.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="su-text-icon" color="#fff" align="center" font-size="14px">crafting.email</mj-text>
+      </mj-column>
+      <!-- 3 -->
+      <mj-column width="33.33%" padding-bottom="40px" padding="0px 0px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="24px" height="24px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/icon1.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="su-text-icon" color="#fff" align="center" font-size="14px">(+351) 210 900 000</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="30px 30px">
+      <mj-column>
+        <mj-text css-class="su-text-small" color="#818180" font-size="14px" align="center">
+          <p>You're receiving this email because you recently used our services.</p>
+          <p>If you believe this was sent in error, please <a href="#">click here</a> to let us know.</p>
+        </mj-text>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="su-text-small" color="#818180" font-size="14px" align="center">Crafted with love by <a href="https://github.com/ricfreire">Ricardo Freire</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
